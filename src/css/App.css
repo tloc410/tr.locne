@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  scroll-behavior: smooth;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+a{
+  /* color: #282c34; */
+  text-decoration: none;
+}
+
+a:hover{
+  /* color: #282c34; */
+  text-decoration: none;
+}
+
+.home{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.spline{
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100; */
+}
+
+.App{
+
+}

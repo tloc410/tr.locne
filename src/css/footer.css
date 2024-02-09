@@ -1,0 +1,145 @@
+.footer{
+    background-color: rgba(245, 245, 247, 1);
+    /* height: 330px; */
+    width: 100%;
+    align-items: center;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.footer_list{
+    padding: 50px;
+    width: auto;
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+p{
+    margin:0;
+    padding-bottom: 5px;
+    color: #666666;
+}
+
+dt{
+    margin:15px 0 10px 0;
+}
+
+.footer_list_web{
+    list-style: none;
+    padding: 0;
+}
+
+.footer_list_web > li{
+    padding-bottom: 5px;
+}
+
+.footer_list_web > li > a:hover{
+    color: black;
+}
+
+.footer_list_web > li > a{
+    text-decoration: none;
+    color: #666666;
+}
+.col1_footer_logo {
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+    margin-top: 80px;
+}
+.foot{
+    font-weight: bold;
+    display:none;
+}
+
+
+.href_footer{
+    color: #666666;
+}
+
+.href_footer:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 1200px)  {
+    .col1 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .col2 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .col3 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 13.666667%;
+    }
+    .form-style-4 input[type=text] {
+        width: 219px !important;
+    }
+    .form-style-4 input[type=email] {
+        width: 131px !important;
+    }
+    .form-style-4 textarea {
+        width: 207px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px)  {
+    .col3{
+        display: none;
+    }
+    .col4 {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .footer_list{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .col2 {
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+    .col1{
+        display: none;
+    }
+    .col4 {
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+    .foot{
+        display: block;
+    }
+} 
+
+@media only screen and (max-width: 721px)
+{
+
+    .col4 {
+        flex: 0 0 57%;
+        max-width: 52%;
+    }
+    .col2 {
+        flex: 0 0 46%;
+        max-width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 721px)
+{
+    .col4{
+        display: none;
+    }
+    .col2{
+        width: 400px;
+    }
+}
+
+

@@ -1,0 +1,144 @@
+.item_detail
+{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.list_detail{
+    width: 1000px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.detail{
+    position: relative;
+    margin: 30px auto;
+    width: fit-content;
+    top:0;
+    height: 100%;
+}
+
+.line_motion{
+    position: absolute;
+    width: 3px;
+    top: 35px;
+    left: 316px;
+    border-radius: 10px;
+    height: calc(100% - 100px);
+    background-color: #2e2e2ecc;
+    transform-origin: top;
+}
+.box_exper{
+    margin-top: 80px;
+    margin-bottom: 100px ;
+}
+
+.item_detail{
+    position: relative;
+    width: 30%;
+}
+.ditem:after{
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: -64px;
+    width: 10px;
+    height: 10px;
+    background-color: #2e2e2e;
+    border-radius: 50%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .list_detail {
+        width: 768px;
+    }
+    .line_motion {
+        left: 234px;
+    }
+    .form-style-4-1 input[type=submit], .form-style-4-1 input[type=button], .form-style-4-1 input[type=text], .form-style-4-1 input[type=email], .form-style-4-1 textarea, .form-style-4-1 label {
+        font-size: 24px;
+    }
+    .form-style-4-1{
+        width: 700px;
+    }
+    .form-style-4-1 input[type=text] {
+        width: 615px;
+    }
+    .form-style-4-1 input[type=email] {
+        width: 485px;
+    }
+    .form-style-4-1 textarea {
+        width: 594px;
+    }
+
+    .form-style-4-1 input[type=submit]{
+        margin-left: -20px;
+    }
+
+    .icon_fb-1 {
+        top: 50%;
+        left: 100%;
+    }
+} 
+
+@media only screen and (max-width: 426px)
+{
+    .list_detail {
+        width: 400px;
+    }
+    .line_motion {
+        left: 106px;
+    }
+    .ditem h3 {
+        font-size: 22px;
+    }
+    .ditem {
+        width: 200px;
+    }
+    .feedback{
+        width: 350px;
+    }
+    .form-style-4-1{
+        width: 350px;
+    }
+    .form-style-4-1 label > span {
+        font-size: 20px;
+    }
+    .form-style-4-1 input[type=submit], .form-style-4-1 input[type=button], .form-style-4-1 input[type=text], .form-style-4-1 input[type=email], .form-style-4-1 textarea, .form-style-4-1 label {
+        font-size: 20px;
+    }
+    .form-style-4-1 input[type=text] {
+        width: 279px;
+    }
+    .form-style-4-1 input[type=email] {
+        width: 171px;
+    }
+    .form-style-4-1 textarea {
+        width: 263px;
+    }
+    .fb_submit1-1 {
+        left: 270px;
+    }
+}
+
+@media only screen and (max-width: 376px)
+{
+    .list_detail {
+        width: 325px;
+    }
+    .line_motion {
+        left: 80px;
+    }
+}
